@@ -1,7 +1,6 @@
 name: Deploy to Minikube
 on:
-  push:
-    branches: -main
+  - push
 jobs:
   job1:
     runs-on: ubuntu-latest
